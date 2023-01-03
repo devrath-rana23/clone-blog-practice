@@ -5,8 +5,9 @@ export const Footer = (props) => {
     <footer className="App-footer">
       <div className="footer-container">
         <div className="footer-logos-container">
-          {props.images.map((item) => (
+          {props.images.map((item, index) => (
             <img
+              key={`${index}_mt`}
               className="footer-logos-img"
               src={item.logo}
               alt={item.logoFor}
