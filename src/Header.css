@@ -1,0 +1,19 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-nav-links-div {
+  margin-right: 60px;
+}
+
+.header-nav-links {
+  color: #000000;
+  height: 43px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  padding-left: 33px;
+}
